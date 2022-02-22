@@ -2,11 +2,16 @@ package main
 
 import "fmt"
 
+/*
+	Algoritma calismasi icin dijital rakamlari yazdirma projesi
+*/
+
 func main() {
 	var x int32 = 9
 	printNumber(x)
 }
 
+//Full yildiz dolu bir satir yapiyor example ******
 func fullLine(width int32) {
 	var i int32
 
@@ -17,6 +22,7 @@ func fullLine(width int32) {
 	fmt.Println("")
 }
 
+//ici bos yildiz satiri yapiyor example *    *
 func emptyLine(width, height int32) {
 	var i, j int32
 
@@ -30,6 +36,14 @@ func emptyLine(width, height int32) {
 	}
 }
 
+/*Dikey yildiz dolu cizgi yapiyor example
+
+*
+*
+*
+*
+
+ */
 func borderLine(width, height int32, leftOrRight bool) {
 	var i, j int32
 
